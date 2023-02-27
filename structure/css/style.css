@@ -1,0 +1,50 @@
+.body {
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, serif;
+    font-weight: bolder;
+    }
+  #start {
+    padding: 15px;
+    background-color: rgb(224, 232, 239);
+    }
+  #basis {
+    display: flex;
+    align-self: center;
+    flex-grow: 1;
+    }
+  .main {
+    align-self: center;
+    flex-grow: 1;
+    padding: 30px;
+    background-color: rgb(246, 242, 212);
+    }
+  .part {
+    display: flex;
+    }
+  .part1 {
+    align-self: center;
+    flex-grow: 1;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(247, 229, 166);
+    }
+  .side {
+    width: 300px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    padding: 15px;
+    background-color: rgb(162, 227, 162);
+    }
+  #container {
+    display: flex;
+    padding: 20px;
+    background-color: rgb(224, 232, 239);
+    }
+  .end {
+    align-self: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    }
